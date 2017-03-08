@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="hallDao" class="com.biletway.dao.Impl.HallDaoImpl" />
+	<bean id="hallBlockDao" class="com.biletway.dao.Impl.HallBlockDaoImpl" />
+	<bean id="commonOperationsDao" class="com.biletway.dao.Impl.CommonOperationsDaoImpl" />
+	<bean id="menuDao" class="com.biletway.dao.Impl.MenuDaoImpl" />
+	<bean id="seatCategoryDao" class="com.biletway.dao.Impl.SeatCategoryDaoImpl" />
+	<bean id="priceTypeDao" class="com.biletway.dao.Impl.PriceTypeDaoImpl" />
+	<bean id="priceListDao" class="com.biletway.dao.Impl.PriceListDaoImpl" />
+	<bean id="priceListDetailDao" class="com.biletway.dao.Impl.PriceListDetailDaoImpl" />
+	<bean id="ticketTypeDao" class="com.biletway.dao.Impl.TicketTypeDaoImpl" />
+	<bean id="cityDao" class="com.biletway.dao.Impl.CityDaoImpl" />
+	<bean id="venueDao" class="com.biletway.dao.Impl.VenueDaoImpl" />
+	<bean id="seatingPlanDao" class="com.biletway.dao.Impl.SeatingPlanDaoImpl" />
+	<bean id="seatingPlanDetailDao" class="com.biletway.dao.Impl.SeatingPlanDetailDaoImpl" />
+	<bean id="seatDesignDao" class="com.biletway.dao.Impl.SeatDesignDaoImpl" />
+	<bean id="seatDivDao" class="com.biletway.dao.Impl.SeatDivDaoImpl" />
+	<bean id="showTypeDao" class="com.biletway.dao.Impl.ShowTypeDaoImpl" />
+	<bean id="applicationSettingsDao" class="com.biletway.dao.Impl.ApplicationSettingsDaoImpl" />
+	<bean id="showDao" class="com.biletway.dao.Impl.ShowDaoImpl" />
+	<bean id="paymentMethodDao" class="com.biletway.dao.Impl.PaymentMethodDaoImpl" />
+	<bean id="showPaymentMethodDao" class="com.biletway.dao.Impl.ShowPaymentMethodDaoImpl" />
+	<bean id="eventDao" class="com.biletway.dao.Impl.EventDaoImpl" />
+	<bean id="ticketDesignDao" class="com.biletway.dao.Impl.TicketDesignDaoImpl" />
+	<bean id="ticketElementDao" class="com.biletway.dao.Impl.TicketElementDaoImpl" />
+	<bean id="ticketPoolDao" class="com.biletway.dao.Impl.TicketPoolDaoImpl" />
+</beans>

@@ -1,0 +1,14 @@
+<web-app>
+<servlet>
+   <servlet-name>BeginnersBook</servlet-name>
+   <servlet-class>MyServlet</servlet-class>
+</servlet>
+<context-param>
+   <param-name>serviceaddress</param-name>
+   <param-value>http://localhost:8080/TicketingSolutionRestServices/</param-value>
+</context-param>
+<servlet-mapping>
+   <servlet-name>BeginnersBook</servlet-name>
+   <url-pattern>/context</url-pattern>
+   </servlet-mapping>
+</web-app>

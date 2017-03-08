@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//WebContent/Default.jsp=Cp1254
+encoding//WebContent/NewFile.jsp=Cp1254
+encoding//WebContent/includes/pagedesign/Left.jsp=Cp1254
+encoding//WebContent/pages/SystemManagement/PriceLists.jsp=UTF-8
+encoding//WebContent/pages/SystemManagement/PriceListsInc.jsp=UTF-8
+encoding//WebContent/pages/SystemManagement/PriceTypes.jsp=UTF-8
+encoding//WebContent/pages/SystemManagement/PriceTypesInc.jsp=UTF-8
+encoding//WebContent/pages/SystemManagement/SeatCategories.jsp=UTF-8
+encoding//WebContent/pages/SystemManagement/SeatCategoriesInc.jsp=UTF-8
+encoding//WebContent/plugin/js/jquery.dataTables.min.js=cp1254

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="hallService" class="com.biletway.service.Impl.HallServiceImpl" />
+	<bean id="hallBlockService" class="com.biletway.service.Impl.HallBlockServiceImpl" />
+	<bean id="seatCategoryService" class="com.biletway.service.Impl.SeatCategoryServiceImpl" />
+	<bean id="menuService" class="com.biletway.service.Impl.MenuServiceImpl" />
+	<bean id="priceTypeService" class="com.biletway.service.Impl.PriceTypeServiceImpl" />
+	<bean id="priceListService" class="com.biletway.service.Impl.PriceListServiceImpl" />
+	<bean id="priceListDetailService" class="com.biletway.service.Impl.PriceListDetailServiceImpl" />
+	<bean id="ticketTypeService" class="com.biletway.service.Impl.TicketTypeServiceImpl" />
+	<bean id="cityService" class="com.biletway.service.Impl.CityServiceImpl" />
+	<bean id="venueService" class="com.biletway.service.Impl.VenueServiceImpl" />
+	<bean id="seatingPlanService" class="com.biletway.service.Impl.SeatingPlanServiceImpl" />
+	<bean id="seatingPlanDetailService" class="com.biletway.service.Impl.SeatingPlanDetailServiceImpl" />
+	<bean id="seatDesignService" class="com.biletway.service.Impl.SeatDesignServiceImpl" />
+	<bean id="seatDivService" class="com.biletway.service.Impl.SeatDivServiceImpl" />
+	<bean id="showTypeService" class="com.biletway.service.Impl.ShowTypeServiceImpl" />
+	<bean id="applicationSettingsService"
+		class="com.biletway.service.Impl.ApplicationSettingsServiceImpl" />
+	<bean id="showService" class="com.biletway.service.Impl.ShowServiceImpl" />
+	<bean id="paymentMethodService" class="com.biletway.service.Impl.PaymentMethodServiceImpl" />
+	<bean id="showPaymentMethodService" class="com.biletway.service.Impl.ShowPaymentMethodServiceImpl" />
+	<bean id="eventService" class="com.biletway.service.Impl.EventServiceImpl" />
+	<bean id="ticketDesignService" class="com.biletway.service.Impl.TicketDesignServiceImpl" />
+	<bean id="ticketElementService" class="com.biletway.service.Impl.TicketElementServiceImpl" />
+	<bean id="ticketPoolService" class="com.biletway.service.Impl.TicketPoolServiceImpl" />
+	<bean id="ticketSaleService" class="com.biletway.service.Impl.TicketSaleServiceImpl" />
+</beans>
